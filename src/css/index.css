@@ -1,0 +1,364 @@
+body {
+    font-family: 'Archivo', sans-serif
+}
+
+.workshop-post {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.n_eventImage {
+    background-image: url('../images/vic_and_lola.jpg');
+    width: 100%;
+    height: 347px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.date-time {
+    color: #F58B3B;
+}
+
+.date-time,
+.status {
+    font-size: 20px;
+}
+
+.border-top {
+    border-top: 1px solid rgba(0, 0, 0, 0.35);
+}
+
+.add-content {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #3498DB;
+    box-shadow: -1px -1px 7px 2px #3498DB;
+}
+
+.n_add-sign {
+    width: 40px;
+    height: 40px;
+    fill: white;
+}
+
+/* .img-fluid {
+    height: 200px;
+    width: 350px;
+} */
+
+@media screen and (max-width: 520px) {
+    .date-time,
+    .status {
+        font-size: 15px;
+    }
+    .workshop-title {
+        font-size: 25px;
+    }
+    .application-status {
+        font-size: 20px;
+    }
+    .add-content {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    } 
+    .n_add-sign{
+        width:20px;
+        height:20px;
+    }
+}
+
+.n_navbar {
+    height: 240px;
+    /* background: url(../img/Rectangle\ 5.svg); */
+    /* height: 240px; */
+    /* opacity: 0.5; */
+    background-color: #D8D8D8;
+    box-shadow: inset 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0px 0px 20px 0.4 #dfdfdf;
+    -webkit-box-shadow: inset 0px 0px 20px 0.4 #dfdfdf;
+    background-image: linear-gradient( #D8D8D8, #dfdfdf 15%, #dfdfdf 85%, /*#f58b3b 95%,*/
+    #D8D8D8);
+}
+
+.n_barDate {
+    color: #F58B3B;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 100px;
+}
+
+.n_barPrice {
+    color: #F58B3B;
+    font-family: 'Archivo', sans-serif;
+    font-size: 26px;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.n_SectionDate {
+    font-family: 'Archivo', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.n_SectionAdd {
+    color: #4A90E2;
+    font-size: 20px;
+}
+
+/* .n_border {
+    border: 1px solid black;
+} */
+
+.n_image {
+    width: 960px;
+}
+
+.n_article {
+    letter-spacing: 0.7px;
+    font-weight: 600;
+    font-size: 22px;
+    font-family: 'Archivo', sans-serif;
+    /* text-align: justify; */
+    line-height: 35px;
+}
+
+.n_socialMedia {
+    height: 40px;
+    width: 40px;
+}
+
+.n_barTitle {
+    font-family: 'Archivo', sans-serif;
+    font-size: 32px;
+}
+
+.n_apply {
+    border: 1px solid #F58B3B;
+    border-radius: 40px;
+    background-color: #F58B3B;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Archivo', sans-serif;
+    /* line-height: 40px; */
+    font-size: 24px;
+    padding: 15px 30px;
+}
+
+.n_header {
+    background-color: #F58B3B;
+    height: 10px;
+}
+
+.n_pathClip {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 73%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 73%);
+}
+
+.n_social {
+    margin: auto 20px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+/* Workshop css */
+
+.n_powerButton {
+    background-color: #F58B3B;
+}
+
+.o-theme-color {
+    color: #f58b3b;
+    font-size: 24px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+}
+
+.n_barSection {
+    border-top: 1px solid rgba(0, 0, 0, 0.35);
+    width: auto;
+    /* height: 120px; */
+}
+
+.n_eventDate {
+    color: #f58b3b;
+    font-family: 'Nunito', sans-serif;
+}
+
+.n_event {
+    font-size: 26px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 400;
+}
+
+.n_footerReset {
+    width: 50%;
+}
+
+.n_eventAdd {
+    color: #F1C40F;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+.n_footer {
+    margin-top: 200px;
+}
+
+.n_footerAdd {
+    background-color: #3498DB;
+    width: 70px;
+    border-radius: 50px;
+    height: 70px;
+    box-shadow: 2px 2px 2px 3px #3498DB;
+}
+
+.n_applicationStatus {
+    color: #2ECC71;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 900;
+}
+
+.n_published {
+    color: #2ECC71;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+/* .n_plusPosition {
+    font-size: 60px;
+    padding: 25px 25px 25px 25px;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+} */
+
+@media(max-width:480px) {
+    .n_footerAdd {
+        padding-left: 0px;
+    }
+    .n_footerReset {
+        margin-left: 100px;
+    }
+    .n_navbar {
+        height: 350px;
+    }
+    .n_barDate {
+        font-size: 12px;
+        padding: 5px;
+        margin-top: 0px;
+    }
+    .n_barPrice {
+        font-size: 18px;
+        margin-right: 10px;
+        margin-top: 0px;
+    }
+    .n_barTitle {
+        font-size: 24px;
+    }
+    des-container {
+        height: 500px;
+        width: 100%;
+    }
+}
+
+.borderline {
+    /* border:1px solid black; */
+    width: 100%;
+}
+
+.mapouter {
+    text-align: right;
+    height: 200px;
+    width: 350px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 200px;
+    width: 350px;
+}
+
+.n_main {
+    padding: 0% 5%;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .n_apply {
+        font-size: 16px;
+        padding: 10px 30px;
+    }
+    .n_main {
+        /*padding: 0px 0px;*/
+    }
+    .n_barPrice {
+        display: block;
+        margin-left: left;
+        margin-right: auto;
+        margin-top: 0;
+        padding-left: 20px;
+    }
+    .n_navbar {
+        width: 350px;
+    }
+    .n_barDate,
+    .n_barTitle {
+        margin-bottom: 1px;
+    }
+    .n_footer {
+        display: flex;
+    }
+    .n_social {
+        order: 2;
+    }
+    .d_apply {
+        order: 1;
+        margin-bottom: 10px;
+        margin-left: 5%;
+    }
+    .des-container {
+        height: 400px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    body {
+        max-width: auto;
+    }
+    .n_apply {
+        font-size: 16px;
+        padding: 10px 30px;
+    }
+    .n_main {
+        /*padding: 0px 0px;*/
+    }
+    .n_barPrice {
+        display: block;
+        /*margin: 0 0 0 auto;*/
+        padding-left: 20px;
+    }
+    .n_footer {
+        display: flex;
+    }
+    .n_social {
+        order: 2;
+    }
+    .d_apply {
+        order: 1;
+        margin-bottom: 10px;
+        margin-left: 5%;
+    }
+    .des-container {
+        height: 400px;
+    }
+}

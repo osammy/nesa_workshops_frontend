@@ -1,0 +1,95 @@
+#o-nav {
+ display: flex 
+}
+
+#o-logo {
+  transform: skewX(-25deg);
+  background:#f58b3b;
+  width:250px;
+  padding-left: 20px;
+  padding-right: 10px;
+  position:relative;
+  left:-25px;
+  top:0px;
+  overflow: hidden
+}
+
+#o-logo-correct-skew {
+    transform: skewX(25deg);
+    color:white;
+      font-size: .8em;
+      font-weight: 700
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#o-logo-correct-skew span {
+margin-left:40px;
+font-weight: 100
+
+}
+
+.o-active {
+  background: #f58b3b;
+}
+
+#o-heading {
+  width:100%;
+  height:180px;
+    background-image:
+    linear-gradient(
+
+      #e38136,
+      #f58b3b 15%,
+      #f58b3b 85%,
+      /*#f58b3b 95%,*/
+        #e38136
+ 
+    );
+}
+
+#o-heading h1 {
+  color:white
+}
+
+#o-content {
+  margin: 0 auto;
+  width:90%;
+  padding:50px;
+  margin-top:90px
+}
+
+#o-main-footer {
+  position:relative;
+  height:400px;
+  margin: 0px;
+  padding:20px;
+  overflow: hidden;
+
+
+}
+
+.o-footer {
+background: #E9E9E9;
+transform:skewY(4deg);
+padding-bottom:20px;
+position: absolute;
+left:0px;
+width:100%;
+height: 250px;
+bottom:-50px;
+/*top:20px;*/
+color:#787878;
+/*opacity:0.3;*/
+font-weight: 600;
+}
+#o-correct-skew {
+    transform: skewY(-4deg);
+}
+
+body {
+  position:relative
+}

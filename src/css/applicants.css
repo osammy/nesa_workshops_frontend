@@ -1,0 +1,122 @@
+#topbox{
+    background-color: #F58B3B;
+    /* width: 100%;
+    height:50px;
+    margin-top: 0px;
+    padding-top:0px, 0px */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 10px;
+}
+#background{
+  
+        max-width: 1150px;
+        margin: auto;
+        background: white;
+        padding: 10px;
+}
+.b-theme-color {
+    color:#f58b3b;
+    font-size: bold;
+    float:right;
+    height: 30px;
+    font-size: 30px;
+    padding-top: 30px;
+ }
+
+#container{
+
+}
+
+h1{
+color: #F58B3B;
+font-family: 'Archivo', sans-serif;
+font-size: 44px;
+font-weight: 500;
+letter-spacing: 0.98px;
+line-height: 69px;
+text-shadow: 0 5px 13px 0 rgba(0,0,0,0.29);
+    }
+.half-rule { 
+margin-left: 0;
+text-align: left;
+height: 0px;
+width: 1150px;
+/*border: 1px solid rgba(0,0,0,0.35);
+opacity: 0.55;*/
+     }
+  
+
+     .btn{
+       
+            /*height: 50px;*/
+            /*width: 150px;*/
+            /*border-radius: 15px;*/
+            /*background-color: #E74C3C;*/
+            /*float: right;*/
+            /* padding: 0; */
+            /*border-color:  #E74C3C;*/
+           border-style:none;
+           
+            
+
+     }
+span{
+color: #FFFFFF;
+font-family: 'Archivo', sans-serif;
+font-size: 15px;
+font-weight: 500;
+letter-spacing: 0.58px;
+line-height: 26px;
+           
+       
+}
+ .span1{  
+    
+    color: #000;
+    font-family:'Archivo', sans-serif;;
+    font-size: 25px;
+    letter-spacing: 0.55px;
+    line-height: 40px;
+}
+.span2 {
+	height: 32px;
+	width: 224px;
+	color: #F58B3B;
+	font-family: 'Nunito', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	letter-spacing: 0.58px;
+    line-height: 32px;
+  
+}
+#input {
+	height: 50px;
+	width: 20px;
+	border-radius: 10px;
+    background-color: rgba(216,216,216,0.64);
+    float:right;
+    border-style: solid;
+    border:none;
+    margin-bottom:none;
+    margin-top: 80px;
+
+
+}
+input::placeholder {
+    
+        height: 26px;
+        width: 267px;
+        opacity: 0.27;
+        color: #000000;
+        font-family: 'Archivo', sans-serif;;
+        font-size: 24px;
+        font-weight: 500;
+        letter-spacing: 0.58px;
+        line-height: 26px;
+        padding-left: 20px;
+}
+
