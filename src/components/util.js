@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton'
 import '../css/header.css';
-import '../css/del.css';
 
 import Button from '@material-ui/core/Button';
 import AddIcon from '@material-ui/icons/Add';
@@ -70,7 +69,7 @@ export const Logout = (props) => (
     </div>
 )
 
-export const Top = ({ top: { startDate, endDate, time, title, fee }, initPayment, seatsLeft }) => {
+export const Top = ({ top: { startDate, endDate, time, title, fee },openModal, seatsLeft }) => {
     return (
         <div style={{ "marginTop": "85px" }} className="col-12 n_navbar n_pathClip">
             <div className="container">
@@ -80,9 +79,9 @@ export const Top = ({ top: { startDate, endDate, time, title, fee }, initPayment
                         <p className="n_barTitle">{title}</p>
                     </div>
                     <div className="n_barPrice mt-5">
-                        <button disabled={(fee === 0) || (seatsLeft < 1)} style={{
+                        <button style={{"outline":"none"}} disabled={(fee === 0) || (seatsLeft < 1)} style={{
                             "visibility": fee ? "visible" : "hidden"
-                        }} onClick={initPayment} className="n_apply">
+                        }} onClick={openModal} className="n_apply">
                             <span style={{
                                 "fontSize": "1.1em",
                                 "display": ((seatsLeft < 1) && (fee !== 0)) ? "none" : "block"
@@ -145,7 +144,7 @@ export const BodyText = ({ description }) => (
     </div>
 )
 
-export const SocialMedia = ({ fee, seatsLeft }) => (
+export const SocialMedia = ({ fee, seatsLeft, openModal }) => (
     <div className="container">
         <div className="row n_footer">
             <div className="col-md-6 col-lg-6 col-sm-12 col-xs-12 n_social d-flex justify-content-around ">
@@ -155,7 +154,7 @@ export const SocialMedia = ({ fee, seatsLeft }) => (
             </div>
             <div className="col-md-5 col-lg-5 d_apply justify-content-center">
 
-                <button disabled={(fee === 0) || (seatsLeft < 1)} style={{
+                <button style={{"outline":"none"}} onClick={openModal} disabled={(fee === 0) || (seatsLeft < 1)} style={{
                     "visibility": fee ? "visible" : "hidden"
                 }} className="n_apply">
                     <span style={{
