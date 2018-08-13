@@ -50,14 +50,14 @@ class Header extends Component {
                 <div className="collapse navbar-collapse  ml-4 pl-4" id="navbarSupportedContent">
                     <ul className="nav navbar-nav navbar-right ml-auto ">
 
-                        <NavLink to="/contact">  <li className="nav-item pr-4 pl-4 mr-4 ml-4">
+                        <NavLink to="/">  <li className="nav-item pr-4 pl-4 mr-4 ml-4">
                             <span className="nav-link pr-4 pl-4 mr-4 ml-4">Home</span>
                         </li></NavLink>
-                        <NavLink to="/workshops">
+                        {/*<NavLink to="/workshops">
                             <li className="nav-item pr-4 pl-4 mr-4 ml-4">
                                 <span className="nav-link pr-4 pl-4 mr-4 ml-4">Courses</span>
                             </li>
-                        </NavLink>
+                        </NavLink>*/}
                         {/*<NavLink to="/workshops">
                             <li className="nav-item pr-4 pl-4 mr-4 ml-4">
                                 <span className="nav-link pr-4 pl-4 mr-4 ml-4">Workshops</span>
