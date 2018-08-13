@@ -18,6 +18,11 @@
         background: white;
         padding: 10px;
 }
+
+button:focus {
+    outline:none
+}
+
 .b-theme-color {
     color:#f58b3b;
     font-size: bold;

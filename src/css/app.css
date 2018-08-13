@@ -16,6 +16,9 @@ body {
     overflow: hidden;
 	font-weight:bold;
 }
+button:focus {
+    outline:none
+}
 
 .nav-corr {
     background: #f8e4d5;

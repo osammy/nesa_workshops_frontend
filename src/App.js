@@ -23,6 +23,7 @@ class App extends Component {
         <BrowserRouter>
           <Switch>
             <Route exact path="/" component={Index} />
+
             {/*<Route path="/applicants/:Id" component={Applicants} />*/}
             {/*<Route path="/workshop/:workshopId/applicants" component={Applicants} />*/}
             <Route path="/client/workshops" component={ClientWorkshop} />
